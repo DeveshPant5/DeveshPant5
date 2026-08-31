@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="320" viewBox="0 0 1100 320" role="img" aria-labelledby="bannerTitle">
+  <title id="bannerTitle">Devesh Pant - Full Stack Developer building AI products</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070b14"/>
+      <stop offset="55%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <radialGradient id="orbCyan" cx="30%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbViolet" cx="78%" cy="70%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.38"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e2e8f0"/>
+      <stop offset="50%" stop-color="#67e8f9"/>
+      <stop offset="100%" stop-color="#c4b5fd"/>
+      <animate attributeName="x1" values="0;1;0" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;2;1" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.15"/>
+      <stop offset="50%" stop-color="#67e8f9" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0.15"/>
+    </linearGradient>
+    <clipPath id="wipe">
+      <rect x="48" y="78" width="0" height="72">
+        <animate attributeName="width" values="0;720;720" keyTimes="0;0.28;1" dur="6s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#1e293b" stroke-width="0.6"/>
+    </pattern>
+  </defs>
+
+  <rect width="1100" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1100" height="320" rx="18" fill="url(#grid)" opacity="0.45"/>
+  <rect x="1" y="1" width="1098" height="318" rx="17" fill="none" stroke="url(#edge)" stroke-width="1.4"/>
+
+  <circle cx="210" cy="90" r="170" fill="url(#orbCyan)">
+    <animate attributeName="cx" values="210;250;210" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="920" cy="230" r="190" fill="url(#orbViolet)">
+    <animate attributeName="cy" values="230;200;230" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="6s" repeatCount="indefinite"/>
+  </circle>
+
+  <g transform="translate(56,36)">
+    <rect width="268" height="30" rx="15" fill="#0f172a" stroke="#1e293b"/>
+    <circle cx="16" cy="15" r="5" fill="#34d399" filter="url(#glow)">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="30" y="20" font-family="Segoe UI, system-ui, sans-serif" font-size="12" fill="#94a3b8" letter-spacing="1.4">BUILDING AT KUMI LABS</text>
+  </g>
+
+  <text x="56" y="128" clip-path="url(#wipe)" font-family="Segoe UI, system-ui, sans-serif" font-size="54" font-weight="800" fill="url(#nameGrad)" letter-spacing="3.5">DEVESH PANT</text>
+  <rect x="56" y="142" width="0" height="3" rx="2" fill="url(#lineGrad)">
+    <animate attributeName="width" values="0;318;318;0" keyTimes="0;0.25;0.82;1" dur="6s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="56" y="178" font-family="Segoe UI, system-ui, sans-serif" font-size="16" fill="#94a3b8">Full Stack Developer  �  B.Tech  �  Ghaziabad, India</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" fill="#67e8f9">
+    <text x="56" y="214" opacity="1">
+      &gt; shipping Flutter � React � FastAPI � Node.js
+      <animate attributeName="opacity" values="1;1;0;0;0;0;1" keyTimes="0;0.28;0.33;0.66;0.71;0.95;1" dur="9s" repeatCount="indefinite"/>
+    </text>
+    <text x="56" y="214" opacity="0">
+      &gt; AI counsellor grounded with RAG
+      <animate attributeName="opacity" values="0;0;1;1;0;0;0" keyTimes="0;0.33;0.38;0.61;0.66;0.95;1" dur="9s" repeatCount="indefinite"/>
+    </text>
+    <text x="56" y="214" opacity="0">
+      &gt; PostgreSQL � MongoDB � premium UI/UX
+      <animate attributeName="opacity" values="0;0;0;0;1;1;0" keyTimes="0;0.61;0.66;0.90;0.93;0.98;1" dur="9s" repeatCount="indefinite"/>
+    </text>
+    <rect x="430" y="201" width="8" height="16" fill="#67e8f9">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#cbd5e1">
+    <g transform="translate(56,244)">
+      <rect width="92" height="26" rx="8" fill="#0f172a" stroke="#164e63"/>
+      <text x="46" y="17" text-anchor="middle">Flutter</text>
+    </g>
+    <g transform="translate(158,244)">
+      <rect width="80" height="26" rx="8" fill="#0f172a" stroke="#164e63"/>
+      <text x="40" y="17" text-anchor="middle">React</text>
+    </g>
+    <g transform="translate(248,244)">
+      <rect width="88" height="26" rx="8" fill="#0f172a" stroke="#5b21b6"/>
+      <text x="44" y="17" text-anchor="middle">FastAPI</text>
+    </g>
+    <g transform="translate(346,244)">
+      <rect width="92" height="26" rx="8" fill="#0f172a" stroke="#14532d"/>
+      <text x="46" y="17" text-anchor="middle">Node.js</text>
+    </g>
+    <g transform="translate(448,244)">
+      <rect width="70" height="26" rx="8" fill="#0f172a" stroke="#1e3a8a"/>
+      <text x="35" y="17" text-anchor="middle">RAG</text>
+    </g>
+  </g>
+
+  <g transform="translate(760,48)" fill="none" stroke="#22d3ee" stroke-width="1.2" opacity="0.9">
+    <path d="M40 40 L120 28 L200 70 L120 120 L40 96 Z" stroke="#334155"/>
+    <path d="M120 28 L120 120 M40 96 L200 70 M40 40 L200 70" stroke="#1e293b"/>
+    <path d="M40 40 L120 28 L200 70 L120 120 L40 96 Z" stroke="#22d3ee" stroke-dasharray="12 80">
+      <animate attributeName="stroke-dashoffset" values="0;-180" dur="3.2s" repeatCount="indefinite"/>
+    </path>
+    <g filter="url(#glow)">
+      <circle cx="40" cy="40" r="6" fill="#22d3ee">
+        <animate attributeName="r" values="5;7;5" dur="2.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="120" cy="28" r="6" fill="#a78bfa">
+        <animate attributeName="r" values="5;8;5" dur="2.6s" begin="0.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="200" cy="70" r="7" fill="#67e8f9">
+        <animate attributeName="r" values="6;9;6" dur="2.4s" begin="0.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="120" cy="120" r="6" fill="#818cf8">
+        <animate attributeName="r" values="5;7;5" dur="2.8s" begin="0.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="40" cy="96" r="5" fill="#34d399">
+        <animate attributeName="r" values="4;6.5;4" dur="2s" begin="0.6s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <g font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#94a3b8" stroke="none">
+      <text x="28" y="22">UI</text>
+      <text x="128" y="18">RAG</text>
+      <text x="210" y="66">LLM</text>
+      <text x="128" y="142">DB</text>
+      <text x="8" y="112">API</text>
+    </g>
+  </g>
+</svg>
