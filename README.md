@@ -16,7 +16,7 @@
 [![GitHub followers](https://img.shields.io/github/followers/DeveshPant5?label=Follow&style=for-the-badge&color=7c3aed)](https://github.com/DeveshPant5)
 [![Portfolio](https://img.shields.io/badge/Portfolio-maportt-0f172a?style=for-the-badge&logo=vercel&logoColor=67e8f9)](https://maportt.netlify.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Devesh%20Pant-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/devesh-pant-887bb9256)
-[![Email](https://img.shields.io/badge/Email-dev.deveshpant50@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dev.deveshpant50@gmail.com)
+[![Email](https://img.shields.io/badge/Email-dev.deveshpant@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dev.deveshpant@gmail.com)
 
 </div>
 
@@ -215,7 +215,7 @@ const devesh = {
 [![GitHub](https://img.shields.io/badge/GitHub-DeveshPant5-181717?style=for-the-badge&logo=github)](https://github.com/DeveshPant5)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-devesh--pant-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/devesh-pant-887bb9256)
 [![Portfolio](https://img.shields.io/badge/Portfolio-maportt.netlify.app-67E8F9?style=for-the-badge&logo=googlechrome&logoColor=0f172a)](https://maportt.netlify.app/)
-[![Email](https://img.shields.io/badge/Say%20hello-dev.deveshpant50@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dev.deveshpant50@gmail.com)
+[![Email](https://img.shields.io/badge/Say%20hello-dev.deveshpant@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dev.deveshpant@gmail.com)
 
 </div>
 
