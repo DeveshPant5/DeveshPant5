@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="svg-title">
+<title id="svg-title">Have an idea worth shipping? Email dev.deveshpant@gmail.com</title>
+<style>.m{font-family:'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace}.s{font-family:'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif}</style>
+<defs>
+<clipPath id="card"><rect width="1200" height="280" rx="22"/></clipPath>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a1024"/><stop offset="1" stop-color="#05070f"/></linearGradient>
+<radialGradient id="gA" cx="160" cy="140" r="320" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f472b6" stop-opacity=".2"/><stop offset="1" stop-color="#f472b6" stop-opacity="0"/></radialGradient>
+<radialGradient id="gB" cx="1050" cy="140" r="340" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#22d3ee" stop-opacity=".18"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f472b6" stop-opacity=".75"/><stop offset=".5" stop-color="#2a3a63"/><stop offset="1" stop-color="#22d3ee" stop-opacity=".75"/></linearGradient>
+<linearGradient id="head" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#e6edf7"/><stop offset=".6" stop-color="#e0faff"/><stop offset="1" stop-color="#67e8f9"/></linearGradient>
+<linearGradient id="btn" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f472b6" stop-opacity=".22"/><stop offset="1" stop-color="#8b5cf6" stop-opacity=".22"/></linearGradient>
+<pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#fff" stroke-opacity=".035"/></pattern>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur in="SourceGraphic" stdDeviation="4" result="b"/><feComponentTransfer in="b" result="bb"><feFuncA type="linear" slope="1"/></feComponentTransfer><feMerge><feMergeNode in="bb"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<g clip-path="url(#card)">
+<rect width="1200" height="280" fill="url(#bg)"/><rect width="1200" height="280" fill="url(#grid)"/>
+<rect width="1200" height="280" fill="url(#gA)"/><rect width="1200" height="280" fill="url(#gB)"/>
+<circle cx="150" cy="140" r="20" fill="none" stroke="#f472b6" stroke-width="1.5"><animate attributeName="r" values="22;100" dur="3.2s" begin="0s" repeatCount="indefinite"/><animate attributeName="opacity" values=".7;0" dur="3.2s" begin="0s" repeatCount="indefinite"/></circle><circle cx="150" cy="140" r="20" fill="none" stroke="#f472b6" stroke-width="1.5"><animate attributeName="r" values="22;100" dur="3.2s" begin="0.8s" repeatCount="indefinite"/><animate attributeName="opacity" values=".7;0" dur="3.2s" begin="0.8s" repeatCount="indefinite"/></circle><circle cx="150" cy="140" r="20" fill="none" stroke="#f472b6" stroke-width="1.5"><animate attributeName="r" values="22;100" dur="3.2s" begin="1.6s" repeatCount="indefinite"/><animate attributeName="opacity" values=".7;0" dur="3.2s" begin="1.6s" repeatCount="indefinite"/></circle><circle cx="150" cy="140" r="20" fill="none" stroke="#f472b6" stroke-width="1.5"><animate attributeName="r" values="22;100" dur="3.2s" begin="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".7;0" dur="3.2s" begin="2.4s" repeatCount="indefinite"/></circle>
+<circle cx="150" cy="140" r="26" fill="#0a1022" stroke="#f472b6" stroke-width="1.5"/>
+<g transform="translate(131 121) scale(.82)" filter="url(#glow)"><g stroke="#f472b6" stroke-width="2.2" fill="none" stroke-linejoin="round"><rect x="7" y="11" width="32" height="24" rx="4"/><path d="M8 13l15 12 15-12"/></g></g>
+<g transform="translate(1050 140)">
+<circle r="70" fill="#22d3ee" fill-opacity=".04" stroke="#22d3ee" stroke-opacity=".7" stroke-width="1.5"/>
+<ellipse rx="70" ry="70" fill="none" stroke="#22d3ee" stroke-opacity=".55"><animate attributeName="rx" values="70;0;70" dur="6s" begin="0s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".4 0 .6 1;.4 0 .6 1"/></ellipse><ellipse rx="70" ry="70" fill="none" stroke="#22d3ee" stroke-opacity=".55"><animate attributeName="rx" values="70;0;70" dur="6s" begin="-2s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".4 0 .6 1;.4 0 .6 1"/></ellipse><ellipse rx="70" ry="70" fill="none" stroke="#22d3ee" stroke-opacity=".55"><animate attributeName="rx" values="70;0;70" dur="6s" begin="-4s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".4 0 .6 1;.4 0 .6 1"/></ellipse>
+<ellipse cy="-35" rx="60.62" ry="10.91" fill="none" stroke="#22d3ee" stroke-opacity=".35"/><ellipse cy="0" rx="70" ry="12.6" fill="none" stroke="#22d3ee" stroke-opacity=".35"/><ellipse cy="35" rx="60.62" ry="10.91" fill="none" stroke="#22d3ee" stroke-opacity=".35"/>
+<circle r="86" fill="none" stroke="#a78bfa" stroke-opacity=".35" stroke-dasharray="2 7"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="50s" repeatCount="indefinite"/></circle>
+<circle r="3" fill="#f472b6" filter="url(#glow)"><animateMotion path="M86 0A86 86 0 1 1 -86 0A86 86 0 1 1 86 0" dur="8s" repeatCount="indefinite"/></circle>
+</g>
+<text x="260" y="82" class="m" font-size="12" fill="#f472b6" textLength="141.12" lengthAdjust="spacing" >◉ CHANNEL OPEN</text>
+<text x="260" y="128" class="s" font-size="36" font-weight="800" fill="url(#head)">Have an idea worth shipping?</text>
+<text x="260" y="162" class="s" font-size="18" fill="#9aa8c0">Products, roles, or a wild AI experiment — my inbox is open.</text>
+<g transform="translate(260 188)">
+<rect x=".75" y=".75" width="307.2" height="46" rx="12" fill="url(#btn)" stroke="#f472b6" stroke-opacity=".6" stroke-width="1.5"/>
+<text x="24" y="29" class="m" font-size="16" fill="#e6edf7" textLength="259.2" lengthAdjust="spacingAndGlyphs" >dev.deveshpant@gmail.com  ↗</text>
+</g>
+<g stroke="#f472b6" stroke-width="2" fill="none" opacity="0.6" stroke-linecap="square">
+<path d="M18 40V18H40"/><path d="M1160 18H1182V40"/>
+<path d="M1182 240V262H1160"/><path d="M40 262H18V240"/></g>
+</g>
+<rect x=".75" y=".75" width="1198.5" height="278.5" rx="21.5" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
+</svg>

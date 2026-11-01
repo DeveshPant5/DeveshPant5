@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="76" viewBox="0 0 300 76" role="img" aria-labelledby="svg-title">
+<title id="svg-title">Portfolio — maportt.netlify.app</title>
+<style>.m{font-family:'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace}.s{font-family:'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif}</style>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1530"/><stop offset="1" stop-color="#060a16"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee" stop-opacity=".8"/><stop offset="1" stop-color="#8b5cf6" stop-opacity=".5"/></linearGradient>
+<radialGradient id="aura" cx="0" cy=".5" r=".8"><stop offset="0" stop-color="#22d3ee" stop-opacity=".16"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+<clipPath id="shape"><path d="M12.75 0.75H283.25L299.25 16.75V63.25Q299.25 75.25 287.25 75.25H16.75L0.75 59.25V12.75Q0.75 0.75 12.75 0.75Z"/></clipPath>
+<linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".09"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur in="SourceGraphic" stdDeviation="3" result="b"/><feComponentTransfer in="b" result="bb"><feFuncA type="linear" slope="0.9"/></feComponentTransfer><feMerge><feMergeNode in="bb"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<g clip-path="url(#shape)"><rect width="300" height="76" fill="url(#bg)"/><rect width="300" height="76" fill="url(#aura)"/>
+<rect y="0" width="70" height="76" fill="url(#sheen)" transform="skewX(-20)"><animate attributeName="x" values="-120;420;420" keyTimes="0;.45;1" dur="4.5s" begin="1.2s" repeatCount="indefinite"/></rect></g>
+<path d="M12.75 0.75H283.25L299.25 16.75V63.25Q299.25 75.25 287.25 75.25H16.75L0.75 59.25V12.75Q0.75 0.75 12.75 0.75Z" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
+<g transform="translate(16 15)" filter="url(#glow)"><g stroke="#22d3ee" stroke-width="2" fill="none"><circle cx="23" cy="23" r="15"/><path d="M8 23h30M23 8v30"/><ellipse cx="23" cy="23" rx="7" ry="15"><animate attributeName="rx" values="7;13;1;7" dur="5s" repeatCount="indefinite"/></ellipse></g></g>
+<line x1="72" y1="18" x2="72" y2="58" stroke="#1a2644"/>
+<text x="88" y="35" class="s" font-size="17" font-weight="800" letter-spacing="2.5" fill="#e6edf7">PORTFOLIO</text>
+<text x="88" y="56" class="m" font-size="12" fill="#9aa8c0" textLength="136.8" lengthAdjust="spacingAndGlyphs" >maportt.netlify.app</text>
+<path d="M266 30l8 8-8 8" stroke="#22d3ee" stroke-width="2" fill="none"><animateTransform attributeName="transform" type="translate" values="0 0;4 0;0 0" dur="1.6s" repeatCount="indefinite"/></path>
+</svg>

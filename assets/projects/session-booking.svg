@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="350" viewBox="0 0 600 350" role="img" aria-labelledby="svg-title">
+<title id="svg-title">Session Booking — scheduling platform</title>
+<style>.m{font-family:'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace}.s{font-family:'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif}</style>
+<defs>
+<clipPath id="shape"><path d="M16.75 0.75H571.25L599.25 28.75V333.25Q599.25 349.25 583.25 349.25H28.75L0.75 321.25V16.75Q0.75 0.75 16.75 0.75Z"/></clipPath>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0c1329"/><stop offset="1" stop-color="#060a16"/></linearGradient>
+<radialGradient id="aura" cx="1" cy="0" r="1"><stop offset="0" stop-color="#34d399" stop-opacity=".2"/><stop offset=".6" stop-color="#34d399" stop-opacity=".03"/><stop offset="1" stop-color="#34d399" stop-opacity="0"/></radialGradient>
+<linearGradient id="edge" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#34d399" stop-opacity=".85"/><stop offset=".5" stop-color="#2a3a63" stop-opacity=".7"/><stop offset="1" stop-color="#34d399" stop-opacity=".35"/></linearGradient>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#34d399" stroke-opacity=".06"/></pattern>
+<linearGradient id="gridFade" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff"/></linearGradient>
+<mask id="gm"><rect width="600" height="350" fill="url(#gridFade)"/></mask>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="b"/><feComponentTransfer in="b" result="bb"><feFuncA type="linear" slope="1.2"/></feComponentTransfer><feMerge><feMergeNode in="bb"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<g clip-path="url(#shape)">
+<rect width="600" height="350" fill="url(#bg)"/>
+<rect width="600" height="350" fill="url(#grid)" mask="url(#gm)"/>
+<rect width="600" height="350" fill="url(#aura)"/>
+</g>
+<path d="M16.75 0.75H571.25L599.25 28.75V333.25Q599.25 349.25 583.25 349.25H28.75L0.75 321.25V16.75Q0.75 0.75 16.75 0.75Z" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
+<path d="M16.75 0.75H571.25L599.25 28.75V333.25Q599.25 349.25 583.25 349.25H28.75L0.75 321.25V16.75Q0.75 0.75 16.75 0.75Z" fill="none" stroke="#34d399" stroke-width="2" pathLength="1000" stroke-dasharray="70 930" filter="url(#glow)"><animate attributeName="stroke-dashoffset" from="1000" to="0" dur="7s" begin="-3.3s" repeatCount="indefinite"/></path>
+<path d="M573 6l21 21" stroke="#34d399" stroke-width="2" opacity=".9"/>
+<text x="36" y="44" class="m" font-size="12.5" fill="#34d399" textLength="45" lengthAdjust="spacingAndGlyphs" >PRJ_04</text><text x="88.5" y="44" class="m" font-size="12.5" fill="#5d6b86" textLength="97.5" lengthAdjust="spacingAndGlyphs" >// FULL STACK</text>
+<g transform="translate(436.96 26)">
+<rect x=".5" y=".5" width="119.04" height="25" rx="12.5" fill="#34d399" fill-opacity=".1" stroke="#34d399" stroke-opacity=".5"/>
+<text x="12" y="17.5" class="m" font-size="11" fill="#34d399" textLength="95.04" lengthAdjust="spacing">FRONT + BACK</text>
+</g>
+<g transform="translate(36 70)">
+<rect x=".75" y=".75" width="62.5" height="62.5" rx="14" fill="#34d399" fill-opacity=".06" stroke="#34d399" stroke-opacity=".45" stroke-width="1.5"/>
+<rect x="12" y="15" width="40" height="36" rx="5" stroke="#34d399" stroke-width="2" fill="#34d399" fill-opacity=".06"/>
+<path d="M12 24h40M22 11v8M42 11v8" stroke="#34d399" stroke-width="2"/>
+<rect x="17" y="28" width="6" height="5" rx="1.2" fill="#34d399" opacity=".22"/><rect x="25" y="28" width="6" height="5" rx="1.2" fill="#34d399" opacity=".22"/><rect x="33" y="28" width="6" height="5" rx="1.2" fill="#34d399" opacity=".22"/><rect x="41" y="28" width="6" height="5" rx="1.2" fill="#34d399" opacity=".22"/><rect x="17" y="35.5" width="6" height="5" rx="1.2" fill="#34d399" opacity=".22"/><rect x="25" y="35.5" width="6" height="5" rx="1.2" fill="#34d399" opacity=".22"/><rect x="33" y="35.5" width="6" height="5" rx="1.2" fill="#34d399" opacity=".22"/><rect x="41" y="35.5" width="6" height="5" rx="1.2" fill="#34d399" opacity=".22"/><rect x="17" y="43" width="6" height="5" rx="1.2" fill="#34d399" opacity=".22"/><rect x="25" y="43" width="6" height="5" rx="1.2" fill="#34d399" opacity=".22"/><rect x="33" y="43" width="6" height="5" rx="1.2" fill="#34d399" opacity=".22"/><rect x="41" y="43" width="6" height="5" rx="1.2" fill="#34d399" opacity=".22"/>
+<rect x="25" y="35.5" width="6" height="5" rx="1.2" fill="#34d399" filter="url(#glow)"><animate attributeName="x" values="25;33;33;41;17;25" dur="4.8s" calcMode="discrete" repeatCount="indefinite"/><animate attributeName="y" values="35.5;28;43;35.5;28;43" dur="4.8s" calcMode="discrete" repeatCount="indefinite"/></rect>
+</g>
+<text x="118" y="104" class="s" font-size="28" font-weight="800" fill="#e6edf7" letter-spacing=".3">Session Booking</text>
+<text x="118" y="128" class="m" font-size="12.5" fill="#34d399" letter-spacing="2.5">SCHEDULING PLATFORM</text>
+<g class="s" font-size="16.5" fill="#9aa8c0"><text x="36" y="172">End-to-end booking product: a calendar flow on</text><text x="36" y="197">the frontend, session APIs on the backend. A real</text><text x="36" y="222">scheduling surface, not a form demo.</text></g>
+<g transform="translate(36 256)"><rect x=".5" y=".5" width="64" height="29" rx="8" fill="#34d399" fill-opacity=".07" stroke="#34d399" stroke-opacity=".4"/><text x="13" y="19.55" class="m" font-size="13" fill="#e6edf7" textLength="39" lengthAdjust="spacingAndGlyphs" >React</text></g><g transform="translate(110 256)"><rect x=".5" y=".5" width="103" height="29" rx="8" fill="#34d399" fill-opacity=".07" stroke="#34d399" stroke-opacity=".4"/><text x="13" y="19.55" class="m" font-size="13" fill="#e6edf7" textLength="78" lengthAdjust="spacingAndGlyphs" >TypeScript</text></g><g transform="translate(223 256)"><rect x=".5" y=".5" width="79.6" height="29" rx="8" fill="#34d399" fill-opacity=".07" stroke="#34d399" stroke-opacity=".4"/><text x="13" y="19.55" class="m" font-size="13" fill="#e6edf7" textLength="54.6" lengthAdjust="spacingAndGlyphs" >Node.js</text></g>
+<path d="M36 306H564" stroke="#1a2644"/>
+<text x="36" y="331" class="m" font-size="12.5" fill="#34d399" textLength="225" lengthAdjust="spacingAndGlyphs" >↗ SOURCE · sessionbookingfront</text>
+<text x="513.6" y="331" class="m" font-size="12" fill="#5d6b86" textLength="50.4" lengthAdjust="spacingAndGlyphs" >04 / 06</text>
+</svg>

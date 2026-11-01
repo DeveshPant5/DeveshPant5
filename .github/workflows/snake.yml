@@ -1,4 +1,4 @@
-name: Generate contribution snake
+name: Generate profile artwork
 
 on:
   schedule:
@@ -8,6 +8,10 @@ on:
     branches:
       - main
 
+concurrency:
+  group: profile-artwork
+  cancel-in-progress: true
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -15,15 +19,29 @@ jobs:
     permissions:
       contents: write
     steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
       - name: Generate snake animation
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=#7c3aed&color_dots=#ebedf0,#a5f3fc,#22d3ee,#0891b2,#155e75
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#22d3ee&color_dots=#111a30,#0e4a5c,#0e7490,#06b6d4,#67e8f9
 
-      - name: Push animation to output branch
+      - name: Generate telemetry card
+        run: node .github/scripts/github-stats.mjs dist/github-stats.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: ${{ github.repository_owner }}
+
+      - name: Push artwork to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output

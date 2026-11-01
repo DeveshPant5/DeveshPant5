@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="350" viewBox="0 0 600 350" role="img" aria-labelledby="svg-title">
+<title id="svg-title">Counselix — ai counsellor</title>
+<style>.m{font-family:'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace}.s{font-family:'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif}</style>
+<defs>
+<clipPath id="shape"><path d="M16.75 0.75H571.25L599.25 28.75V333.25Q599.25 349.25 583.25 349.25H28.75L0.75 321.25V16.75Q0.75 0.75 16.75 0.75Z"/></clipPath>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0c1329"/><stop offset="1" stop-color="#060a16"/></linearGradient>
+<radialGradient id="aura" cx="1" cy="0" r="1"><stop offset="0" stop-color="#22d3ee" stop-opacity=".2"/><stop offset=".6" stop-color="#22d3ee" stop-opacity=".03"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+<linearGradient id="edge" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22d3ee" stop-opacity=".85"/><stop offset=".5" stop-color="#2a3a63" stop-opacity=".7"/><stop offset="1" stop-color="#22d3ee" stop-opacity=".35"/></linearGradient>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#22d3ee" stroke-opacity=".06"/></pattern>
+<linearGradient id="gridFade" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff"/></linearGradient>
+<mask id="gm"><rect width="600" height="350" fill="url(#gridFade)"/></mask>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="b"/><feComponentTransfer in="b" result="bb"><feFuncA type="linear" slope="1.2"/></feComponentTransfer><feMerge><feMergeNode in="bb"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<g clip-path="url(#shape)">
+<rect width="600" height="350" fill="url(#bg)"/>
+<rect width="600" height="350" fill="url(#grid)" mask="url(#gm)"/>
+<rect width="600" height="350" fill="url(#aura)"/>
+</g>
+<path d="M16.75 0.75H571.25L599.25 28.75V333.25Q599.25 349.25 583.25 349.25H28.75L0.75 321.25V16.75Q0.75 0.75 16.75 0.75Z" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
+<path d="M16.75 0.75H571.25L599.25 28.75V333.25Q599.25 349.25 583.25 349.25H28.75L0.75 321.25V16.75Q0.75 0.75 16.75 0.75Z" fill="none" stroke="#22d3ee" stroke-width="2" pathLength="1000" stroke-dasharray="70 930" filter="url(#glow)"><animate attributeName="stroke-dashoffset" from="1000" to="0" dur="7s" begin="0s" repeatCount="indefinite"/></path>
+<path d="M573 6l21 21" stroke="#22d3ee" stroke-width="2" opacity=".9"/>
+<text x="36" y="44" class="m" font-size="12.5" fill="#22d3ee" textLength="45" lengthAdjust="spacingAndGlyphs" >PRJ_01</text><text x="88.5" y="44" class="m" font-size="12.5" fill="#5d6b86" textLength="105" lengthAdjust="spacingAndGlyphs" >// AI · EDTECH</text>
+<g transform="translate(488.32 26)">
+<rect x=".5" y=".5" width="67.68" height="25" rx="12.5" fill="#22d3ee" fill-opacity=".1" stroke="#22d3ee" stroke-opacity=".5"/>
+<circle cx="15" cy="13" r="3.5" fill="#34d399" filter="url(#glow)"><animate attributeName="opacity" values="1;.3;1" dur="1.6s" repeatCount="indefinite"/></circle>
+<text x="27" y="17.5" class="m" font-size="11" fill="#22d3ee" textLength="31.68" lengthAdjust="spacing">LIVE</text>
+</g>
+<g transform="translate(36 70)">
+<rect x=".75" y=".75" width="62.5" height="62.5" rx="14" fill="#22d3ee" fill-opacity=".06" stroke="#22d3ee" stroke-opacity=".45" stroke-width="1.5"/>
+<path d="M14 18a5 5 0 0 1 5-5h20a5 5 0 0 1 5 5v12a5 5 0 0 1-5 5H24l-7 6v-6.4A5 5 0 0 1 14 30z" stroke="#22d3ee" stroke-width="2" fill="#22d3ee" fill-opacity=".08"/>
+<circle cx="22" cy="24" r="2.2" fill="#22d3ee"><animate attributeName="opacity" values=".2;1;.2" dur="1.2s" begin="0s" repeatCount="indefinite"/></circle><circle cx="29" cy="24" r="2.2" fill="#22d3ee"><animate attributeName="opacity" values=".2;1;.2" dur="1.2s" begin="0.2s" repeatCount="indefinite"/></circle><circle cx="36" cy="24" r="2.2" fill="#22d3ee"><animate attributeName="opacity" values=".2;1;.2" dur="1.2s" begin="0.4s" repeatCount="indefinite"/></circle>
+<path d="M34 39h11a4 4 0 0 0 4-4v-9" stroke="#22d3ee" stroke-opacity=".5" stroke-width="2" fill="none"/>
+</g>
+<text x="118" y="104" class="s" font-size="28" font-weight="800" fill="#e6edf7" letter-spacing=".3">Counselix</text>
+<text x="118" y="128" class="m" font-size="12.5" fill="#22d3ee" letter-spacing="2.5">AI COUNSELLOR</text>
+<g class="s" font-size="16.5" fill="#9aa8c0"><text x="36" y="172">Reads a student’s profile, goals and constraints,</text><text x="36" y="197">then returns guidance that actually fits — built</text><text x="36" y="222">to feel like a session, not a chatbot dump.</text></g>
+<g transform="translate(36 256)"><rect x=".5" y=".5" width="64" height="29" rx="8" fill="#22d3ee" fill-opacity=".07" stroke="#22d3ee" stroke-opacity=".4"/><text x="13" y="19.55" class="m" font-size="13" fill="#e6edf7" textLength="39" lengthAdjust="spacingAndGlyphs" >React</text></g><g transform="translate(110 256)"><rect x=".5" y=".5" width="79.6" height="29" rx="8" fill="#22d3ee" fill-opacity=".07" stroke="#22d3ee" stroke-opacity=".4"/><text x="13" y="19.55" class="m" font-size="13" fill="#e6edf7" textLength="54.6" lengthAdjust="spacingAndGlyphs" >Node.js</text></g><g transform="translate(199.6 256)"><rect x=".5" y=".5" width="103" height="29" rx="8" fill="#22d3ee" fill-opacity=".07" stroke="#22d3ee" stroke-opacity=".4"/><text x="13" y="19.55" class="m" font-size="13" fill="#e6edf7" textLength="78" lengthAdjust="spacingAndGlyphs" >PostgreSQL</text></g><g transform="translate(312.6 256)"><rect x=".5" y=".5" width="56.2" height="29" rx="8" fill="#22d3ee" fill-opacity=".07" stroke="#22d3ee" stroke-opacity=".4"/><text x="13" y="19.55" class="m" font-size="13" fill="#e6edf7" textLength="31.2" lengthAdjust="spacingAndGlyphs" >Groq</text></g><g transform="translate(378.8 256)"><rect x=".5" y=".5" width="87.4" height="29" rx="8" fill="#22d3ee" fill-opacity=".07" stroke="#22d3ee" stroke-opacity=".4"/><text x="13" y="19.55" class="m" font-size="13" fill="#e6edf7" textLength="62.4" lengthAdjust="spacingAndGlyphs" >Tailwind</text></g>
+<path d="M36 306H564" stroke="#1a2644"/>
+<text x="36" y="331" class="m" font-size="12.5" fill="#22d3ee" textLength="217.5" lengthAdjust="spacingAndGlyphs" >↗ LIVE ON MAPORTT.NETLIFY.APP</text>
+<text x="513.6" y="331" class="m" font-size="12" fill="#5d6b86" textLength="50.4" lengthAdjust="spacingAndGlyphs" >01 / 06</text>
+</svg>
